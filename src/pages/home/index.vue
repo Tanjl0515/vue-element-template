@@ -1,17 +1,18 @@
 <!--
  * @Author: King
  * @Date: 2022-03-02 14:32:30
- * @LastEditTime: 2022-03-02 17:52:59
+ * @LastEditTime: 2022-03-02 22:19:59
  * @LastEditors: Please set LastEditors
  * @Description:
  * @FilePath: \vue-element-template\src\pages\home\index.vue
 -->
 <template>
-  <div class="box">
+  <!-- <div class="box">
     <div class="box-1">
       Home Page
     </div>
-  </div>
+  </div> -->
+  <el-button @click="login">登录</el-button>
 </template>
 
 <script>
